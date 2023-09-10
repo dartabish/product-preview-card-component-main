@@ -107,7 +107,7 @@ button:active { background-color: hsl(158, 52%, 19%); }
         border-top-right-radius: 0;
         border-bottom-left-radius: 10px;
         height: 100%;
-        /* content: url('./images/image-product-desktop.jpg'); */
+        content: url('./images/image-product-desktop.jpg');
     }
 
     .attribution {
