@@ -84,6 +84,12 @@ button{
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+button img {
+    padding-right: 10px;
 }
 
 button:hover { cursor: pointer; }
@@ -96,7 +102,7 @@ button:active { background-color: hsl(158, 52%, 19%); }
     .container {
         display: flex;
         width: 600px;
-        height: 400px;
+        height: 450px;
     }
 
     .hero {
@@ -114,13 +120,20 @@ button:active { background-color: hsl(158, 52%, 19%); }
         width: 50%;
         border-bottom-left-radius: 0;
         border-top-right-radius: 10px;
-        padding-top: 25px;
+        padding-top: 30px;
     }
 
-    h1 { padding-right: 10px; }
+    h1 { 
+        padding: 25px 10px 25px 0;
+    }
 
-    h2 { font-size: 30px; }
+    h2 { font-size: 30px; 
+    padding-bottom: 16px;}
 
     h2 > span { font-size: 11px; }
+
+    button {
+        padding: 16px 0;   
+    }
 
 }
