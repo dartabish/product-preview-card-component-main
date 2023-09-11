@@ -120,11 +120,15 @@ button:active { background-color: hsl(158, 52%, 19%); }
         width: 50%;
         border-bottom-left-radius: 0;
         border-top-right-radius: 10px;
-        padding-top: 30px;
+        padding: 25px;
     }
 
     h1 { 
-        padding: 25px 10px 25px 0;
+        padding: 20px 10px 25px 0;
+    }
+
+    p {
+        padding-right: 10px;
     }
 
     h2 { font-size: 30px; 
